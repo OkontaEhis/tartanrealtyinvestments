@@ -1010,8 +1010,9 @@ section {
         font-size: 0.9rem;
     }
 
+    /* Hamburger animations */
     .hamburger {
-        display: block;
+        display: flex;
         cursor: pointer;
         z-index: 1001;
     }
@@ -1030,7 +1031,7 @@ section {
 
     /* Hero Section Mobile */
     .hero {
-        min-height: 100vh;
+        
         padding: 80px 0 2rem;
     }
 
@@ -1046,7 +1047,6 @@ section {
     }
 
     .title-subtitle {
-        display: block;
         font-size: 1.5rem;
         margin-top: 0.5rem;
     }
@@ -1079,7 +1079,6 @@ section {
     }
 
     .stat-item {
-        min-width: auto;
         padding: 1rem;
     }
 
